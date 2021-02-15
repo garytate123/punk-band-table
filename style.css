@@ -15,7 +15,7 @@ table {
 thead {
   border: solid 4px #800080;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url("/assets/leopardskin.jpg");
+    url("assets/leopardskin.jpg");
   font-family: Rock Salt;
 }
 
@@ -26,7 +26,7 @@ th {
 }
 
 tbody {
-  background-image:: url("/assets/noise.png");
+  background-image:: url("assets/noise.png");
   border-collapse: collapse;
   font-family: Helvetica;
   font-weight: 800;
@@ -47,7 +47,7 @@ td {
 tfoot {
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url("/assets/leopardskin.jpg");
+    url("assets/leopardskin.jpg");
 }
 
 .table-footer-left-cell {
