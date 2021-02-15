@@ -1,0 +1,68 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Rock Salt", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  border: solid 4px #800080;
+  border-collapse: collapse;
+  background: url(/assets/noise.png);
+}
+
+thead {
+  border: solid 4px #800080;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("/assets/leopardskin.jpg");
+  font-family: Rock Salt;
+}
+
+th {
+  padding: 1%;
+  color: #fff;
+  border: solid 4px #800080;
+}
+
+tbody {
+  background: url(/assets/noise.png);
+  border-collapse: collapse;
+  font-family: Helvetica;
+  font-weight: 800;
+}
+td {
+  padding: 1%;
+}
+
+.table-row-dark-background {
+  background-color: #ff33cc;
+  opacity: 0.8;
+}
+.table-row-light-background {
+  background: #e495e4;
+  opacity: 0.8;
+}
+
+tfoot {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("/assets/leopardskin.jpg");
+}
+
+.table-footer-left-cell {
+  column-span: 2;
+  text-align: right;
+  border: solid 4px #800080;
+}
+.table-footer-right-cell {
+  column-span: 2;
+  text-align: left;
+  border: solid 4px #800080;
+}
+
+.glitchButton {
+  position: fixed;
+  right: 20px;
+}
