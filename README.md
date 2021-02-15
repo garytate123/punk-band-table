@@ -32,11 +32,11 @@ Make the table above in HTML and style with CSS and embed your solution in a blo
 
 <!-- 2. The [noise image](https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png) is on the table body only not the head or foot -->
 
-3. The two fonts are **Rock Salt** and **Helvetica Neu**
+<!-- 3. The two fonts are **Rock Salt** and **Helvetica Neu** -->
 
 <!-- 4. Here is that lovely [leopard skin image](https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245) -->
 
-5. There is a gradient fill on the header and footer - rgba(0,0,0,0.1), rgba(0,0,0,0.5)
+<!-- 5. There is a gradient fill on the header and footer - rgba(0,0,0,0.1), rgba(0,0,0,0.5) -->
 
 <!-- 6. Here are those delicious colours -->
 
