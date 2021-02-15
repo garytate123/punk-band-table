@@ -10,7 +10,7 @@ table {
   width: 100%;
   border: solid 4px #800080;
   border-collapse: collapse;
-  background: url("assets/noise.png");
+  background: url("noise.png");
 }
 
 thead {
