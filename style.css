@@ -1,7 +1,5 @@
-/* CSS files add styling rules to your content */
-
 body {
-  font-family: "Rock Salt", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Rock Salt", "Helvetica Neue", "helvetica", "arial", "sans-serif";
   margin: 2em;
 }
 
@@ -10,59 +8,51 @@ table {
   width: 100%;
   border: solid 4px #800080;
   border-collapse: collapse;
-  background: url("noise.png");
 }
 
-thead {
-  padding: 0px;
+thead,
+tfoot {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url("leopardskin.jpg");
-  font-family: Rock Salt;
+  font-family: "Rock Salt";
+  color: #fff;
 }
 
 th {
   padding: 1%;
-  color: #fff;
   border: solid 4px #800080;
 }
 
 tbody {
-  background: url("noise.png");
   border-collapse: collapse;
-  font-family: Helvetica;
+  font-family: "helvetica";
   font-weight: 800;
 }
+
 td {
   padding: 1%;
+  background: url("noise.png");
+  opacity: 0.8;
 }
 
 .table-row-dark-background {
   background-color: #ff33cc;
-  opacity: 0.8;
 }
 .table-row-light-background {
   background: #e495e4;
-  opacity: 0.8;
 }
 
-tfoot {
-  color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url("leopardskin.jpg");
-}
-
-.table-footer-left-cell {
-  column-span: 2;
-  text-align: right;
+tfoot td {
   border: solid 4px #800080;
+  column-span: 2;
+}
+.table-footer-left-cell {
+  text-align: right;
 }
 .table-footer-right-cell {
-  column-span: 2;
   text-align: left;
-  border: solid 4px #800080;
 }
 
 .glitchButton {
-  position: fixed;
-  right: 20px;
+  text-align: right;
 }
